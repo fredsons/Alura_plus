@@ -76,3 +76,23 @@
   display: inline-block;
   margin-top: 1em;
 }
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  margin: 5em 0;
+}
+
+.dispositivos__titulo {
+  font-size: 48px;
+  color: var(--branco-principal);
+}
+
+.lista__item {
+  color: var(--branco-principal);
+  font-size: 32px;
+}
