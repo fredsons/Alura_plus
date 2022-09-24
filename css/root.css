@@ -24,9 +24,24 @@ body {
 }
 
 .principal {
+  align-items: center;
   background-image: url(../img/Background.png);
   background-repeat: no-repeat;
   background-size: contain;
+  text-align: center;
+}
+
+.container__caixa {
+  margin: 0 6em;
+}
+
+.container__titulo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
 }
 
 .container__botao {
@@ -35,10 +50,38 @@ body {
   border-radius: 5px;
   display: block;
   padding: 1em;
+  margin-bottom: 1em;
   text-decoration: none;
 }
 
 .botao_secundario {
   background-color: transparent;
   border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+  color: var(--cinza-secundario);
+  font-size: 12px;
+}
+
+/*Segunda seção*/
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.descricao__titulo {
+  color: var(--branco-principal);
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0.3em;
+}
+
+.descricao__texto {
+  color: var(--cinza-secundario);
 }
