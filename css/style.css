@@ -36,6 +36,11 @@
   text-decoration: none;
 }
 
+.container__botao:hover {
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-de-fundo);
+}
+
 .botao_secundario {
   background-color: transparent;
   border: 2px solid var(--branco-principal);
@@ -95,4 +100,41 @@
 .lista__item {
   color: var(--branco-principal);
   font-size: 32px;
+}
+
+.rodape {
+  margin: 0 3em;
+  text-align: center;
+}
+
+.rodpe__logo {
+  margin-bottom: 2em;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.lista__link a {
+  color: var(--branco-principal);
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.lista__link a:hover {
+  color: var(--cinza-secundario);
+}
+
+.lista__link a:active {
+  color: var(--botao-azul);
+}
+
+.rodape__texto {
+  color: var(--cinza-secundario);
+  font-size: 14px;
+  font-weight: regular;
+  margin: 25px 0;
+  text-align: center;
 }
